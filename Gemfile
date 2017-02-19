@@ -32,6 +32,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'doorkeeper', :git => 'https://github.com/treble37/doorkeeper', :branch => 'api-only-879'
+
+gem 'devise'
+
 gem 'rack-cors'
 
 group :development, :test do
