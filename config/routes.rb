@@ -55,7 +55,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  use_doorkeeper# api_only: true
+  use_doorkeeper api_only: true
   resources :posts, only: [:index]
   root to: 'posts#index'
 end
